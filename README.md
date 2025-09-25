@@ -38,16 +38,17 @@ open('traffic_sign_classification.mlx')
 
 4. Run all sections (Run All in the Live Editor toolbar) or step through the script interactively.
 
-   ##Model Architecture
+##Model Architecture
 
-The CNN defined in the script typically follows:
+   The CNN defined in the script typically follows:
 
-Convolution → ReLU → Max Pooling
+         Convolution → ReLU → Max Pooling
 
-Additional convolution/pooling layers
+         Additional convolution/pooling layers
 
-Fully connected layers → Softmax output
+         Fully connected layers → Softmax output
 
-Loss: Cross-Entropy
-Optimizer: Adam (default in Deep Learning Toolbox)
+         Loss: Cross-Entropy
+         
+         Optimizer: Adam (default in Deep Learning Toolbox)
 
